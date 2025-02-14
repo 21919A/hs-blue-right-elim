@@ -35,7 +35,6 @@ def autonomous_function():
     clamp.set(True)
     intake.spin_forward()
 
-    wait(1000, MSEC)
     reset_robot_position_and_heading_to_gps()
 
     trigger_turner.turn(125, FRAME_ABSOLUTE)
